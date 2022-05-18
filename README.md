@@ -1,7 +1,7 @@
 # Driver-Communication-List
 Driver-Communication-List
 
-## Sample 1
+## Sample 1 2022.5.18
 > User
 - win32u.dll.ZwDxgkGetAvailableTrackedWorkloadIndex
 > Kernel
