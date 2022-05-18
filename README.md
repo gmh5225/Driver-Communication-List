@@ -8,5 +8,7 @@ win32u.dll.ZwDxgkGetAvailableTrackedWorkloadIndex
 ```
 > Kernel
 ``` C++
-win32k.sys.NtDxgkGetAvailableTrackedWorkloadIndex->win32base.sys.NtDxgkGetAvailableTrackedWorkloadIndex->dxgkrnl.sys.NtDxgkGetAvailableTrackedWorkloadIndex
+win32k.sys.NtDxgkGetAvailableTrackedWorkloadIndex->
+  win32base.sys.NtDxgkGetAvailableTrackedWorkloadIndex->
+    dxgkrnl.sys.NtDxgkGetAvailableTrackedWorkloadIndex
 ```
