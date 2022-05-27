@@ -12,3 +12,13 @@ win32k.sys.NtDxgkGetAvailableTrackedWorkloadIndex ->
   win32base.sys.NtDxgkGetAvailableTrackedWorkloadIndex ->
     dxgkrnl.sys.NtDxgkGetAvailableTrackedWorkloadIndex
 ```
+
+## Sample 2 2022.5.27
+> User
+```
+win32u.dll.NtUserGetThreadState
+```
+> Kernel
+```
+win32k.sys.NtUserGetThreadState
+```
