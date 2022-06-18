@@ -22,3 +22,17 @@ win32u.dll.NtUserGetThreadState
 ```
 win32k.sys.NtUserGetThreadState
 ```
+
+
+## Sample 3 2022.6.17
+> User
+``` C++
+win32u.dll.ZwFlipObjectReadNextMessageToProducer
+```
+> Kernel
+``` C++
+win32k.sys.NtFlipObjectReadNextMessageToProducer ->
+  win32base.sys.NtFlipObjectReadNextMessageToProducer ->
+    dxgkrnl.sys.NtFlipObjectReadNextMessageToProducer
+```
+
